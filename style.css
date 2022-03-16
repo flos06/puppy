@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display:flex;
+ 
+}
+
+.header, .hero {
+    background-color: #1F2937;
+    padding-left:80px;
+    padding-right: 80px;  
+}
+
+.list {
+    display:flex;
+    align-items: center;
+}
+
+.headertext {
+    display:flex;
+    font-size:24px;
+    color:#F9FAF8;
+    align-items:center;
+}
+
+.list {
+    display:flex;
+    margin-left:auto;
+    
+
+
+}
+
+ul {
+    display:flex;
+    list-style:none;
+    gap:20px;
+    font-size:18px;
+
+   
+
+}
+
+.list a  {
+    text-decoration: none;
+    color:#E5E7EB;
+}
