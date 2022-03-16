@@ -10,8 +10,36 @@ body {
 
 .header, .hero {
     background-color: #1F2937;
-    padding-left:80px;
-    padding-right: 80px;  
+    padding-left:200px;
+    padding-right: 200px;  
+    padding-bottom:100px;
+}
+
+.hero {
+    display:flex;
+}
+
+.hero img {
+    margin-left:auto;
+}
+
+.text-below {
+    display:flex;
+    flex-direction: column;
+    width:500px;
+}
+
+.text-below p {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin:0px;
+}
+
+.text-below p1 {
+    font-size: 18px;
+    color:#E5E7EB;
+    
 }
 
 .list {
@@ -47,4 +75,15 @@ ul {
 .list a  {
     text-decoration: none;
     color:#E5E7EB;
+}
+
+.button1 {
+    background-color: #3882F6;
+    font-weight:bold;
+    color:#F9FAF8;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    border:none;
+    margin-top:10px;
 }
